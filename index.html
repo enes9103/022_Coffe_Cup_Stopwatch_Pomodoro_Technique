@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coffe Cup Switch</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1><span id="minute">00</span>:<span id="second">00</span></h1>
+        <label class="checkControl">
+            <input type="checkbox" class="checkbox">
+            <span></span>
+            <text class="stop">STOP</text>
+            <text class="start">START</text>
+        </label>
+        <form>
+            <label class="timeLabel">
+                Min
+                <input id="choise-min" type="number" min="0" max="59" value="00"/>
+                <input id="choise-sec" type="number" min="0" max="59" value="00"/>
+                Sec
+            </label>
+        </form>
+        <button id="reset">Reset</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
