@@ -1,7 +1,5 @@
 # 022_Coffe_Cup_Stopwatch_Pomodoro_Technique
 
-It is a to-do list that provides an interface for the user to manage their planning.
-
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
